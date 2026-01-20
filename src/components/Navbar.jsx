@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
+import logo from "../assets/logo.jpg";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -7,7 +8,8 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <img
-        src="https://static.vecteezy.com/system/resources/previews/021/496/286/non_2x/google-chrome-logo-symbol-white-design-illustration-with-black-background-free-vector.jpg"
+        // src="https://static.vecteezy.com/system/resources/previews/021/496/286/non_2x/google-chrome-logo-symbol-white-design-illustration-with-black-background-free-vector.jpg"
+        src={logo}
         alt=""
         width="70px"
       />
