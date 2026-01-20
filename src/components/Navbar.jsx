@@ -1,0 +1,38 @@
+import React from "react";
+import { NavLink, useNavigate } from "react-router-dom";
+
+const Navbar = () => {
+  const navigate = useNavigate();
+
+  return (
+    <div className="navbar">
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/021/496/286/non_2x/google-chrome-logo-symbol-white-design-illustration-with-black-background-free-vector.jpg"
+        alt=""
+        width="70px"
+      />
+      <ul>
+        <NavLink to="/">
+          <li>Home</li>
+        </NavLink>
+        <NavLink to="/products">
+          <li>Products</li>
+        </NavLink>
+        <NavLink to="/about">
+          <li>About</li>
+        </NavLink>
+        <NavLink to="contact">
+          <li>Contact</li>
+        </NavLink>
+        <NavLink to="jobs">
+          <li>Jobs</li>
+        </NavLink>
+      </ul>
+      <button onClick={() => navigate("/contact", { replace: true })}>
+        Get Started
+      </button>
+    </div>
+  );
+};
+
+export default Navbar;
