@@ -1,16 +1,58 @@
-# React + Vite
+# React Router Architecture & Pathways
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A structured React project that demonstrates **standard and professional routing setup** using **React Router v6**.  
+This project focuses on **routing concepts and application structure**, not UI or styling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+🔗 **Vercel Deployment:**  
+https://react-router-standard-pathways.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🔍 Project Purpose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The main goal of this project is to understand and demonstrate:
+
+- How routing is handled in real-world React applications
+- How to structure routes in a clean and scalable way
+- How React Router features work together in a professional setup
+
+---
+
+## 🚀 Features
+
+- Navigation using `useNavigate` hook
+- Nested routes using React Router
+- Dynamic routing / Route parameters
+- Route loaders for data handling
+- Custom 404 (Not Found) page
+- Route-level error handling using `errorElement`
+- Clean and scalable routing structure
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- React Router v6
+- JavaScript (ES6+)
+
+---
+
+## 📁 Project Focus
+
+> ⚠️ This project is **not UI-focused**.  
+> Styling is minimal because the main focus is on **routing logic, structure, and best practices**.
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+git clone https://github.com/your-username/react-router-standard-pathways.git
+cd react-router-standard-pathways
+npm install
+npm run dev
